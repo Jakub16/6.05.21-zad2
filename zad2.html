@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie 2</title>
+</head>
+<body>
+    <form method = "post" action = "zad2.php">
+        <h2>W którą stronę chcesh poruszyć figurę?</h2><br>
+        <input type = "radio" id = "up" name = "option" value = "up" />
+        <label for = "up">W górę </label><br>
+        <input type = "radio" id = "down" name = "option" value = "down" />
+        <label for = "down">W dół </label><br>
+        <input type = "radio" id = "left" name = "option" value = "left" />
+        <label for = "left">W lewo </label><br>
+        <input type = "radio" id = "right" name = "option" value = "right" />
+        <label for = "right">W prawo </label><br><br>
+        <h2>O ile pikseli chcesz ją przesunąć?</h2><br>
+        <input type = "number" name = "speed" required min = 1 max = 150 placeholder = "od 1 do 150 px" style="width: 110px;"/><br><br>
+        <input type = "submit" name = "submit" />
+    </form>
+</body>
+</html>
